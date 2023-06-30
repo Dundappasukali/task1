@@ -1,0 +1,10 @@
+provider "azurerm" {
+  features {
+    
+  }
+}
+
+resource "azurerm_resource_group" "name1" {
+  name = "dsgrp"
+  location = "west us"
+}
